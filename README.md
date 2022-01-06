@@ -23,7 +23,10 @@ read -s TFC_TOKEN && export TFC_TOKEN
 ```
 
 
-Then run the script with
+Then run the script with parameters:
+* Name of organization
+* Date in YYYY-MM-DD format
+
 ```
 ./applies.sh lmhd 2021-12-01
 ```
