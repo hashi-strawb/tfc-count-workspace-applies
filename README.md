@@ -42,6 +42,17 @@ ws-c5JL7FYqW4bSGqcQ,vault,0,
 ```
 
 
+You can also count State Versions
+
+```
+$ ./states.sh lmhd 2021-12-01
+ID,Name,State Versions,
+ws-daharcA9w55rgakA,vault-okta,22,
+ws-mHMG4HMRvW91o8nM,dns,4,
+ws-c5JL7FYqW4bSGqcQ,vault,0,
+```
+
+
 ## Caveats
 
 This script can only get information about workspaces which exist.
