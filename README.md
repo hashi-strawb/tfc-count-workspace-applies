@@ -12,7 +12,7 @@ The script just uses Bash and JQ
 
 You also need a Terraform Cloud API token
 
-You can generate one at https://app.terraform.io/app/<your org here>/settings/authentication-tokens
+You can generate one at https://app.terraform.io/app/${your-org-here}/settings/authentication-tokens
 
 ## Running
 
