@@ -40,3 +40,10 @@ ws-daharcA9w55rgakA,vault-okta,18,
 ws-mHMG4HMRvW91o8nM,dns,4,
 ws-c5JL7FYqW4bSGqcQ,vault,0,
 ```
+
+
+## Caveats
+
+This script can only get information about workspaces which exist.
+
+If you have many applies from a workspace which no longer exists, those will not be included in the script output. However, these would still be counted towards monthly average applies in a paid TFC org.
